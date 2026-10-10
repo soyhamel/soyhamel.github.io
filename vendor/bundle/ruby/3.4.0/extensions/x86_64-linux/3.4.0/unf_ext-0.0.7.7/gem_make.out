@@ -1,0 +1,40 @@
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/usr/bin/ruby extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20261010-10934-bgppqr sitelibdir\=./.gem.20261010-10934-bgppqr clean
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20261010-10934-bgppqr sitelibdir\=./.gem.20261010-10934-bgppqr
+compiling unf.cc
+In file included from /usr/include/ruby-3.4.0/ruby/internal/assume.h:29,
+                 from /usr/include/ruby-3.4.0/ruby/backward/2/assume.h:24,
+                 from /usr/include/ruby-3.4.0/ruby/defines.h:72,
+                 from /usr/include/ruby-3.4.0/ruby/ruby.h:25,
+                 from /usr/include/ruby-3.4.0/ruby.h:38,
+                 from unf.cc:3:
+unf.cc: In function ‘VALUE unf_normalize(VALUE, VALUE, VALUE)’:
+/usr/include/ruby-3.4.0/ruby/internal/core/rdata.h:275:52: warning: ‘void* rb_data_object_get_warning(VALUE)’ is deprecated: by TypedData [-Wdeprecated-declarations]
+  275 |     ((sval) = RBIMPL_CAST((type*)rb_data_object_get(obj)))
+      |                                                    ^
+/usr/include/ruby-3.4.0/ruby/internal/cast.h:36:29: note: in definition of macro ‘RBIMPL_CAST’
+   36 | # define RBIMPL_CAST(expr) (expr)
+      |                             ^~~~
+unf.cc:52:5: note: in expansion of macro ‘Data_Get_Struct’
+   52 |     Data_Get_Struct(self, UNF::Normalizer, ptr);
+      |     ^~~~~~~~~~~~~~~
+In file included from /usr/include/ruby-3.4.0/ruby/internal/core.h:27,
+                 from /usr/include/ruby-3.4.0/ruby/ruby.h:29:
+/usr/include/ruby-3.4.0/ruby/internal/core/rdata.h:325:1: note: declared here
+  325 | rb_data_object_get_warning(VALUE obj)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+linking shared-object unf_ext.so
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20261010-10934-bgppqr sitelibdir\=./.gem.20261010-10934-bgppqr install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20261010-10934-bgppqr
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20261010-10934-bgppqr sitelibdir\=./.gem.20261010-10934-bgppqr clean

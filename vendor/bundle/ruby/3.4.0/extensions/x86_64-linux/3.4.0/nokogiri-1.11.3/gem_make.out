@@ -1,0 +1,62 @@
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.11.3/ext/nokogiri
+/usr/bin/ruby extconf.rb
+checking for whether -g is accepted as CFLAGS... yes
+checking for whether -Winline is accepted as CFLAGS... yes
+checking for whether -Wmissing-noreturn is accepted as CFLAGS... yes
+Building nokogiri using packaged libraries.
+Static linking is enabled.
+Cross build is disabled.
+checking for gzdopen() in -lz... yes
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include=${opt-dir}/include
+	--without-opt-include
+	--with-opt-lib=${opt-dir}/lib
+	--without-opt-lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/$(RUBY_BASE_NAME)
+	--help
+	--clean
+	--prevent-strip
+	--enable-system-libraries
+	--disable-system-libraries
+	--use-system-libraries
+	--enable-system-libraries
+	--disable-system-libraries
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--enable-cross-build
+	--disable-cross-build
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include=${zlib-dir}/include
+	--without-zlib-include
+	--with-zlib-lib=${zlib-dir}/lib
+	--without-zlib-lib
+/usr/lib/ruby/3.4.0/did_you_mean/core_ext/name_error.rb:11: warning: net-ftp is not part of the default gems starting from Ruby 3.1.0. Install net-ftp from RubyGems.
+<internal:/usr/lib/ruby/3.4.0/rubygems/core_ext/kernel_require.rb>:136:in 'Kernel#require': cannot load such file -- net/ftp (LoadError)
+	from <internal:/usr/lib/ruby/3.4.0/rubygems/core_ext/kernel_require.rb>:136:in 'Kernel#require'
+	from /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/mini_portile2-2.5.1/lib/mini_portile2/mini_portile.rb:4:in '<top (required)>'
+	from <internal:/usr/lib/ruby/3.4.0/rubygems/core_ext/kernel_require.rb>:136:in 'Kernel#require'
+	from <internal:/usr/lib/ruby/3.4.0/rubygems/core_ext/kernel_require.rb>:136:in 'Kernel#require'
+	from /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/mini_portile2-2.5.1/lib/mini_portile2.rb:2:in '<top (required)>'
+	from <internal:/usr/lib/ruby/3.4.0/rubygems/core_ext/kernel_require.rb>:136:in 'Kernel#require'
+	from <internal:/usr/lib/ruby/3.4.0/rubygems/core_ext/kernel_require.rb>:136:in 'Kernel#require'
+	from extconf.rb:402:in 'Object#process_recipe'
+	from extconf.rb:744:in '<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/extensions/x86_64-linux/3.4.0/nokogiri-1.11.3/mkmf.log
+
+extconf failed, exit code 1

@@ -1,0 +1,19 @@
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20261010-12039-rb37ye sitelibdir\=./.gem.20261010-12039-rb37ye clean
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20261010-12039-rb37ye sitelibdir\=./.gem.20261010-12039-rb37ye
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20261010-12039-rb37ye sitelibdir\=./.gem.20261010-12039-rb37ye install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20261010-12039-rb37ye
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20261010-12039-rb37ye sitelibdir\=./.gem.20261010-12039-rb37ye clean

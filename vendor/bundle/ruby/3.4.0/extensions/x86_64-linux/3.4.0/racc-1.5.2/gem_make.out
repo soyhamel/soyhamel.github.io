@@ -1,0 +1,29 @@
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/racc-1.5.2/ext/racc/cparse
+/usr/bin/ruby extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261010-10934-cq3i6j sitelibdir\=./.gem.20261010-10934-cq3i6j clean
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261010-10934-cq3i6j sitelibdir\=./.gem.20261010-10934-cq3i6j
+compiling cparse.c
+cparse.c: In function ‘call_lexer’:
+cparse.c:302:5: warning: ‘rb_iterate’ is deprecated: by: rb_block_call since 1.9 [-Wdeprecated-declarations]
+  302 |     rb_iterate(lexer_iter, v->value_v, lexer_i, v->value_v);
+      |     ^~~~~~~~~~
+In file included from /usr/include/ruby-3.4.0/ruby/ruby.h:41,
+                 from /usr/include/ruby-3.4.0/ruby.h:38,
+                 from cparse.c:14:
+/usr/include/ruby-3.4.0/ruby/internal/iterator.h:283:7: note: declared here
+  283 | VALUE rb_iterate(VALUE (*func1)(VALUE), VALUE data1, rb_block_call_func_t proc, VALUE data2);
+      |       ^~~~~~~~~~
+linking shared-object racc/cparse.so
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261010-10934-cq3i6j sitelibdir\=./.gem.20261010-10934-cq3i6j install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20261010-10934-cq3i6j/racc
+
+current directory: /home/ham3l/portafolio/slemire/vendor/bundle/ruby/3.4.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261010-10934-cq3i6j sitelibdir\=./.gem.20261010-10934-cq3i6j clean
